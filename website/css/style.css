@@ -5,12 +5,13 @@
 	padding: 0;
 	font-family: "Montserrat",sans-serif;
 	list-style: none;
+  
 }
 
 body
 {
     font-family: monospace;
-	background: url(pic1.jpg);
+	  background-image: url("../img/1.jpg");
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -28,7 +29,10 @@ body
     float: right;
     list-style: none;
     margin-top: 30px;
+
 }
+
+
 .main-nav li
 {
     display: inline-block;
@@ -53,7 +57,8 @@ body
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
-}
+    
+} 
 
 .hero
 {
@@ -92,46 +97,12 @@ h3{
 
 header
 {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
-    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    /*height: 100vh; */
     background-size: cover;
     background-position: center;
 }
-.button
-{
-    margin-top: 30px;
-    margin-left: 440px;
-}
 
-.btn
-{
-    border: 1px solid white;
-    padding: 10px 30px;
-    color: white;
-    text-decoration: none;
-    margin-right: 5px;
-    font-size: 13px;
-    text-transform: uppercase;
-}
-.btn-one
-{
-    background-color: darkorange;
-    font-family: "Roboto", sans-serif;
-}
-
-.btn-two
-{
-    font-family: "Roboto", sans-serif;
-}
-
-
-.btn-two:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
-    
-        
-}
 
 .logo img
 {
@@ -215,10 +186,10 @@ header
     height: 320px;
     background: #F27D64;
     color: #fff;
-	position: absolute;
-	left: calc(55% - 50px);
+	  position: absolute;
+	  left: calc(55% - 50px);
 	
-	border: 2px solid #cc0000;
+	  border: 2px solid #cc0000;
     border-radius: 10px;
     border-radius: 10px;
     border-radius: 10px;
@@ -231,7 +202,7 @@ header
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 70px 30px; */
 }
 
 
@@ -244,66 +215,4 @@ header
     left: calc(50% - 50px);
 }
 
-@keyframes slider {
 
-0% {
-	left: 0;
-}
-
-20% {
-	
-	left: 0;
-}
-
-25% {
-	left: -100%;
-}
-
-45% {
-    left: -100%;
-
-}
-
-50% {
-		left: -200%;
-
-}
-
-70% {
-	left: -200%;
-}
-
-75% {
-	left: -300%;
-}
-
-95% {
-	left: -300%;
-}
-
-100% {
-	left: -400%;
-
-}
-
-}
-
-#slider {
-	overflow: hidden;
-}
-
-#slider figure img {
-	width: 20%;
-	float: left;
-}
-
-#slider figure {
-	position: relative;
-	width: 500%;
-	margin: 0;
-	left: 0;
-	text-align: left;
-	font-size: 0;
-	animation: slider 10s infinite; 
-
-}

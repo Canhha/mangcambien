@@ -1,0 +1,47 @@
+// kiem tra phien ban github
+git --version 
+
+// tao file tren teminal : mkdir <file name>
+
+// kiem tra : ls 
+
+** tao kho chua git 
+// tao mot repository moi : git init 
+
+// ket noi may chu repository qua add origin :  git remote add origin <https:// may chu url>
+
+// so chep mot reposity clone : git clone/link
+
+// kiem tra trang thai : git status
+
+
+** cap nhat thay doi
+// them file vao hed : git add <file name> hoac them tat ca : git add *
+
+// comnent nhung thay doi : git commit -m "ghi chu"
+
+** cap nhat len git
+// day cac thay doi len git : git push origin master ( master la ten nhanh )
+ 
+// add them mot remote tren sever :git remote add origin <https:// may chu url >
+
+
+** nhanh trong git
+// kiem tra nhanh hien tai : git branch 
+
+//tao mot nhanh moi : git branch <file name>
+// tao mot nhanh moi : git check -b <file name>
+
+// tro lai mot nhanh , chuyen nhanh : git checkout <file name>
+
+// xoa mot nhanh : git branch -d <file name>
+
+// day len len nhanh tren git : git push origin <name nhanh >
+
+// cap nhat repository cuc bo voi commit moi nhat : git pull
+
+** xem lai lich su commit : git log
+** xem thay doi truoc khi push : git diff
+** pull tu remote repositiry : git pull origin < master file name>
+
+
